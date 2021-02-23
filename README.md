@@ -14,7 +14,7 @@ Environment
 Architecture
 ------------
 
-
+![](https://github.com/sathvikswaminathan/RISC-V-Single-Cycle-Processor/raw/main/RISC-V%20Single%20Cycle/Architecture.jpg)
 
 
 Instruction Set
