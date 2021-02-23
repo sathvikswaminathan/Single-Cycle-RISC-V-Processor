@@ -28,8 +28,8 @@ SUB           | R-type | ```<0100000><rs2><rs1><000><rd><1100011>```
 AND           | R-type | ```<0000000><rs2><rs1><111><rd><1100011>``` 
 OR            | R-type | ```<0000000><rs2><rs1><110><rd><1100011>``` 
 LW            | I-type | ```<Imm><rs1><010><rd><0000011>``` 
-SW            | S-type | ```<Imm[11:5><rs2><rs1><010><Imm[4:0]><0100011>``` 
-BEQ           | SB-type| ```<Imm[12><Imm[10:5]><rs2><rs1><000><Imm[4:1]><Imm<11><1100011>```
+SW            | S-type | ```<Imm[11:5]><rs2><rs1><010><Imm[4:0]><0100011>``` 
+BEQ           | SB-type| ```<Imm[12]><Imm[10:5]><rs2><rs1><000><Imm[4:1]><Imm<11><1100011>```
 
 
 Verification
@@ -39,5 +39,4 @@ The processor has been verified using a testbench and sample code programmed int
 
 Waveform visualized using GTKWave:
 
-
-
+![](https://github.com/sathvikswaminathan/RISC-V-Single-Cycle-Processor/raw/main/RISC-V%20Single%20Cycle/waveform.png)
