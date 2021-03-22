@@ -1,7 +1,7 @@
 RISC-V processor
 ==============
 
-Basic implementation of a 32-bit single-cycle processor based on the RV32E Base Integer Instruction Set written in Verilog.
+Basic implementation of a 32-bit single-cycle processor based on the RV32I Base Integer Instruction Set written in Verilog.
 
 Environment 
 ------------
@@ -20,7 +20,7 @@ Architecture
 Instruction Set
 ---------------
 
-The processor currently supports a small subset of the RV32E Base Integer Instruction Set. The Instruction Set can easily be expanded by modifying the code.
+The processor currently supports a small subset of the RV32I Base Integer Instruction Set. The Instruction Set can easily be expanded by modifying the code.
 Instruction   | Type   | Format
 ------------  | -----  | ---------------------------------------------------------------
 ADD           | R-type | ```<0000000><rs2><rs1><000><rd><1100011>``` 
