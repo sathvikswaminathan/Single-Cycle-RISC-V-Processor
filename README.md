@@ -1,4 +1,7 @@
-RISC-V processor
+**RISC-V processors**
+==============
+
+RISC-V Single Cycle Processor
 ==============
 
 Basic implementation of a 32-bit single-cycle processor based on the RV32I Base Integer Instruction Set written in Verilog.
