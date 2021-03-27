@@ -49,3 +49,4 @@ Waveform visualized using GTKWave:
 
 RISC-V 5-stage-Pipelined Processor
 ==================================
+Pending
